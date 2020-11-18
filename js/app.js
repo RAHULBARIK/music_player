@@ -1,6 +1,6 @@
 let fillbar = document.querySelector(".fill");
-let audios = ["Audio_One.mp3", "Audio_Two.mp3", "Audio_Three.mp3"];
-let covers = ["cover1.jpg", "cover2.jpg", "cover3.jpg"];
+let audios = ["Audio_One.mp3", "Audio_Two.mp3", "Audio_Three.mp3","Audio_Four.mp3","Audio_Five.mp3","Audio_Six.mp3"];
+let covers = ["cover1.jpg", "cover2.jpg", "cover3.jpg","cover4.jpg","cover5.jpg","cover6.jpg"];
 let currentTime = document.querySelector(".time");
 
 // Create An Object Of Audio
@@ -76,7 +76,7 @@ function totalTime(seconds) {
 
 function nextAudio() {
   currentSong++;
-  if (currentSong > 2) {
+  if (currentSong > 5) {
     currentSong = 0;
   }
   playSong();
@@ -91,7 +91,7 @@ function nextAudio() {
 function prevAudio() {
   currentSong--;
   if (currentSong < 0) {
-    currentSong = 2;
+    currentSong = 5;
   }
   playSong();
   playBtn = document.querySelector(".play-pause");

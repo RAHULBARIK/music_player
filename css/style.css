@@ -22,7 +22,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ff012f;
+  color: #27aa32;
   border-radius: 5px;
   box-shadow: 1px 1px 30px #111, -1px -1px 30px #111;
   overflow: hidden;
@@ -42,7 +42,7 @@ img {
 }
 
 .icons a {
-  color: #ff012f;
+  color:  #27aa32;
   font-size: 1.2em;
   transition: all 0.3s;
 }
@@ -52,7 +52,7 @@ img {
 }
 
 .img {
-  box-shadow: 1px 1px 15px #ff012f, -1px -1px 15px #ff012f;
+  box-shadow: 1px 1px 15px  #27aa32, -1px -1px 15px  #27aa32;
   width: 60%;
   border-radius: 50%;
   margin: 30px auto;
@@ -65,7 +65,7 @@ img {
 }
 
 .img:hover {
-  box-shadow: 1px 1px 25px #ff012f, -1px -1px 25px #ff012f;
+  box-shadow: 1px 1px 25px  #27aa32, -1px -1px 25px  #27aa32;
   transform: scale(1.03);
 }
 .title {
@@ -91,7 +91,7 @@ img {
 .seek {
   width: 100%;
   height: 5px;
-  background: #ff012f;
+  background:  #27aa32;
   border-radius: 50px;
 }
 .seek .fill {
@@ -102,7 +102,7 @@ img {
 }
 
 .audio-btns {
-  background: #ff012f;
+  background:  #27aa32;
   margin: 40px auto;
   height: 350px;
   width: 100%;
@@ -125,7 +125,7 @@ img {
 }
 
 .play-btns .play-pause {
-  background: #ff0634;
+  background:  #26752d;
   padding: 30px 30px 30px 33px;
   border-radius: 50%;
   box-shadow: 1px 1px 50px #111;
@@ -147,7 +147,7 @@ img {
   border: none;
   font-size: 1.3em;
   font-weight: bold;
-  color: #ff012f;
+  color:  #27aa32;
   border-radius: 50%;
   cursor: pointer;
   outline: none;
@@ -156,6 +156,6 @@ img {
 }
 
 .repeat-btns button:hover {
-  background: #ff0634;
+  background: #26752d;
   color: #fff;
 }
